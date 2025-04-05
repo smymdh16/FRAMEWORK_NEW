@@ -36,6 +36,7 @@ public class ToCreateContactTest extends BaseClass {
 		 * System.out.println(name+"-------passed successfully--------------"); } else {
 		 * System.out.println(name+"----------Failed-------------------------"); }
 		 */
+		System.out.println("-------------");
 		Assert.fail();
 		Assert.assertTrue(name.contains(LASTNAME));
 		Reporter.log(name + "Contact created successfully");
